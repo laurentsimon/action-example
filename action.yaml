@@ -42,5 +42,5 @@ branding:
 
 runs:
   using: "docker"
-  image: "ghcr.io://ossf/scorecard-action:latest"
+  image: "ghcr.io://ossf/scorecard-action@sha256:b1a0fc859cf35b429e9bafac62db57b340be11b6f258c8e82c6ee843a8164d00"
 

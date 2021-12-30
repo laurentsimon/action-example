@@ -41,6 +41,6 @@ branding:
   color: "purple"
 
 runs:
-  using: "ghcr.io"
-  image: "ghcr.io://ossf/scorecard-action@sha256:b1a0fc859cf35b429e9bafac62db57b340be11b6f258c8e82c6ee843a8164d00"
+  using: "docker"
+  image: "./Dockerfile"
 
